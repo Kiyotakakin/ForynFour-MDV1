@@ -11,7 +11,7 @@
     },
     "scripts": {
         "start": "node index.js",
-        "mongo": "node . --db 'mongostat --uri mongodb+srv://Kiyotakakin:13082003@cluster0.anpgxcl.mongodb.net'",
+        "mongo": "node . --db 'mongostat --url mongodb+srv://Kiyotakakin:13082003@cluster0.anpgxcl.mongodb.net'",
         "test": "node test.js",
         "test2": "nodemon index.js --server --autocleartmp"
     },
